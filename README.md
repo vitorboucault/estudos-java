@@ -126,7 +126,27 @@ Biblioteca de estudos da linguagem de programação Java
             - `||` Operador lógico "ou"
 #### Métodos
 
-Uma classe é definida por métodos e atributos. Atributos são váriaveis de diferentes tipos de valores. Os métodos correspondem a funções ou sub-rotinas disponíveis dentro de nossas classe
+- Uma classe é definida por métodos e atributos. Atributos são váriaveis de diferentes tipos de valores. Os métodos correspondem a funções ou sub-rotinas disponíveis dentro de nossas classe
+    - Critério de nomeação de métodos:
+        - Não são obrigatórios, mas é recomendável que seja seguidos, pois essas convenções facilitam a vida dos programadores. Os critérios são:
+
+            - `Deve ser nomeado como verbo`
+            - Seguir o padrão `camelCase`, todas as letras minusculas exceto a primeira letra da segunda palavra. Ex.: `calcularImposto``
+        
+                `Atenção!` *Não existe em Java o conceito de métodos globais. Todos os métodos devem estar inseridos em uma classe*
+    - Critério de definição de métodos:
+        - Como sabemos a melhor forma de definir os métodos das nossas classes? Para chegar nessa conclusão, temos uma convenção para nos auxiliar determinada pelos aspectos abaixo:
+            - **Qual a proposta principal do método?** Se perguntar até entender final realidade do mesmo
+            - **Qual o tipo de retorno esperado após executar o método?** Você deve ser responsável por analisar se o método irá retornar algum valor ou não
+
+            - Caso o método não retorne nenhum valor, ele será representado pela palavra-chave `void`.
+
+            - **Quais os parametros necessários para execução do método?** Os métodos as vezes precisam de argumentos como critérios para a execução
+            - **O método possui risco de apresentar alguma exceção?** Exceções são comuns e as vezes é preciso prever e tratar a possível existência de uma exceção
+            - **Qual a visibilidade do método?** Será necessário que o método seja visível a toda a aplicação, somente em mesmo pacotes, através de herança ou somente a nível a própria classe.
+
+            
+
         
 
 
