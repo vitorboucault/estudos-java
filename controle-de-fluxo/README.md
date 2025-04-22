@@ -105,3 +105,45 @@ Controle de Fluxo é a habilidade de ajustar a maneira como um programa realiza 
             - **Do/While:**
                 - Na tradução literal pro português significa "faça enquanto...". Ele testa a condição após executar o código
                 - Mesmo que a condição seja invalida ele executa o código uma vez
+    - Estruturas excepcionais
+        - 
+        - Ao executar um código, diferentes erros podem acontecer: erros de código, entradas erradas ou imprevistos
+        - Quando ocorre um erro, o Java para e relata um erro. O termo para isso é: Java lançará uma exceção
+        - Exceções é um fluxo inesperado da nossa aplicação
+        - É responsabilidade do desenvolvedor prever situações de erro e realizar o tratamento de exceções
+
+        - **Tratamento de exceções:**
+            - `try` permite que você defina um bloco de código para ser testado quando há algum erro
+            - `catch` permite definir um bloco de código a ser executado caso tenha algum erro no bloco try
+            - `finally` permite definir um bloco de código mesmo se tiver um erro ou não (opcional)
+
+            ```java
+            try {
+                //  bloco de código conforme esperado
+            }
+            catch(Exception e) {// precisamos saber qual exceção
+                // bloco de código que captura as exceções que podem acontecer
+                // em caso de um fluxo não previsto
+            }
+            ```
+        - **Hierarquia das exceções:**
+            - A linguagem java dispões de classes que representam exceções e elas possuem uma hierarquia e são divididas em 2 conjuntos denominadas de **Checked** e **Unchecked Exceptions**
+            - A proposta é o fato de ao tentar um usar um método, esse método determina que você precisa tratar esse erro imediatamente
+            - **Exceções customizadas:**
+                - Podemos criar nossas proprias exceções baseadas nas nossas regras de negócio para direcionar melhor quem for utilizar os recursos do projeto, exemplo:
+                    - Imagina que como regra de negócio, para formatar um cep necessita sempre de ter 8 dígitos, caso contrário lançará uma exceção que denominamos de **CepInvalidoException**.
+                    - Primeiro criamos nossa exceção:
+
+                    ```java
+                    public class CepInvalidoException extends Exception {}
+                    ```
+                    - Em seguida criamos nosso método de formatação de cep.
+
+                    ```java
+                    static String formatarCep(String cep) throws CepInvalidoException{
+                        if(cep.length() != 8)
+                            throw new CepInvalidoException();
+                    //simulando um cep formatado
+                            return "23.765-064";
+                        }
+                    ```
