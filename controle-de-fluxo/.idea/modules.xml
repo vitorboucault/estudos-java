@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/desafio-projeto/DesafioProjeto.iml" filepath="$PROJECT_DIR$/desafio-projeto/DesafioProjeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/controle-de-fluxo.iml" filepath="$PROJECT_DIR$/.idea/controle-de-fluxo.iml" />
       <module fileurl="file://$PROJECT_DIR$/estrutura-excepcionais/estrutura-excepcionais.iml" filepath="$PROJECT_DIR$/estrutura-excepcionais/estrutura-excepcionais.iml" />
       <module fileurl="file://$PROJECT_DIR$/estruturas-condicionais/estruturas-condicionais.iml" filepath="$PROJECT_DIR$/estruturas-condicionais/estruturas-condicionais.iml" />
