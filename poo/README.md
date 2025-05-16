@@ -192,7 +192,12 @@ Define um relacionamento entre duas classes, permitindo que um objeto tenha aces
 
 `Com o modificador private somente a classe conhece a implementação quanto que o modicador public todos passarão a conhecer. E o modificador protected somente as classes filhas conhecem`
 
-- Interface: Java não permite heranças multipla, então o interface serve para poder implementar as classes em Java
+## Interface
+
+Java não permite heranças multipla, então o interface serve para poder implementar as classes em Java
+
+- Não pode ter definição de construtores
+- Uma classe pode implementar mais de uma interface
 
 
 
