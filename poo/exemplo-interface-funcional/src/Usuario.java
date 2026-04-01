@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
+public record Usuario(String nome, int idade) {
 
-public class Usuario {
 }

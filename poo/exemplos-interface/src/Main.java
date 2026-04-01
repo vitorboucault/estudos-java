@@ -1,19 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        var musica = new MusicPlayer() {
-            @Override
-            public void tocarMusica() {
+        Computador musicPlayer = new Computador();
 
-            }
+        executarMusica(musicPlayer);
+        executarVideo(musicPlayer);
 
-            @Override
-            public void pausarMusica() {
-
-            }
-
-            @Override
-            public void pararMusica() {
-            }
-        };
     }
+    public static void executarVideo(VideoPlayer videoPlayer) {
+        videoPlayer.iniciarVideo();
+    }
+    public static void executarMusica(MusicPlayer musicPlayer) {
+        musicPlayer.tocarMusica();
+    }
+
 }

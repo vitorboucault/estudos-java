@@ -199,6 +199,9 @@ Java não permite heranças multipla, então o interface serve para poder implem
 - Não pode ter definição de construtores
 - Uma classe pode implementar mais de uma interface
 
+### Interfaces funcionais
+
+
 
 
   
