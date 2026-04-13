@@ -1,4 +1,4 @@
-package exercicios.intermediario;
+package exercicios.intermediario.exemplos;
 
 public class MultiplosDe3 {
     public static void main(String[] args) {
