@@ -1,4 +1,4 @@
-package exercicios.intermediario;
+package exercicios.intermediario.exemplos;
 
 public class Intervalo150A300 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package exercicios.intermediario;
+package exercicios.intermediario.exemplos;
 
 public class Soma1A1000 {
     public static void main(String[] args) {
