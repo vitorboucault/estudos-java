@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exemplo-classes/exemplo-classes.iml" filepath="$PROJECT_DIR$/exemplo-classes/exemplo-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplo-heranca-e-polimorfismo/exemplo-heranca-e-polimorfismo.iml" filepath="$PROJECT_DIR$/exemplo-heranca-e-polimorfismo/exemplo-heranca-e-polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplo-interface-funcional/exemplo-interface-funcional.iml" filepath="$PROJECT_DIR$/exemplo-interface-funcional/exemplo-interface-funcional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplos-interface/exemplos-interface.iml" filepath="$PROJECT_DIR$/exemplos-interface/exemplos-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio-cinema/exercicio-cinema.iml" filepath="$PROJECT_DIR$/exercicio-cinema/exercicio-cinema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio-conta-bancaria/exercicio-conta-bancaria.iml" filepath="$PROJECT_DIR$/exercicio-conta-bancaria/exercicio-conta-bancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio-petshop/exercicio-petshop.iml" filepath="$PROJECT_DIR$/exercicio-petshop/exercicio-petshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio-usuarios-sistema/exercicio-usuarios-sistema.iml" filepath="$PROJECT_DIR$/exercicio-usuarios-sistema/exercicio-usuarios-sistema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poo.iml" filepath="$PROJECT_DIR$/poo.iml" />
+    </modules>
+  </component>
+</project>
